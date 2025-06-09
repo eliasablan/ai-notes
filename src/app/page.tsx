@@ -1,10 +1,4 @@
-import { ThemeDropdown } from "@/components/theme-dropdown";
-
 function HomePage() {
-  return (
-    <div>
-      <ThemeDropdown />
-    </div>
-  );
+  return <h1 className="text-2xl font-bold">Goat Notes</h1>;
 }
 export default HomePage;
