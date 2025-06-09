@@ -1,4 +1,10 @@
+import { ThemeDropdown } from "@/components/theme-dropdown";
+
 function HomePage() {
-  return <div>Homepage</div>;
+  return (
+    <div>
+      <ThemeDropdown />
+    </div>
+  );
 }
 export default HomePage;
