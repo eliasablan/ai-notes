@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { Textarea } from "./ui/textarea";
 import { debounceTimeout } from "@/lib/constants";
 import useNote from "@/hooks/use-note";
+import { updateNoteAction } from "@/actions/notes";
 
 type Props = {
   noteId: string;
@@ -31,8 +32,7 @@ export default function NoteTextInput({ noteId, startingNoteText }: Props) {
     clearTimeout(updateTimeout);
 
     updateTimeout = setTimeout(() => {
-      console.log("updateNoteAction", text);
-      // updateNoteAction(text);
+      updateNoteAction(noteId, text);
     }, debounceTimeout);
   };
 
