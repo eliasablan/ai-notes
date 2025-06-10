@@ -9,13 +9,13 @@ export default async function Header() {
   const user = await getUser();
 
   return (
-    <header className="bg-secondary relative flex h-20 w-full items-center justify-between px-4 xl:px-8">
+    <header className="bg-secondary relative flex h-16 w-full items-center justify-between px-4 xl:px-8">
       <Link
         href="/"
         className="hover:text-muted-foreground flex items-end gap-2 duration-500"
       >
-        <Notebook className="size-9" />
-        <h1 className="flex flex-col text-xl leading-none font-semibold">
+        <Notebook className="size-8" />
+        <h1 className="text-md flex flex-col leading-none font-semibold">
           Goat <span>Notes</span>
         </h1>
       </Link>
