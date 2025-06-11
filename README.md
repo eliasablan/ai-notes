@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Development Links
+
+List of resources used during application development:
+
+- [Bun with Prisma Guide](https://bun.sh/guides/ecosystem/prisma) - Configuration and integration of Prisma with Bun
+- [Prisma ORM Documentation](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma#how-does-prisma-orm-work) - Introduction and basic concepts of Prisma ORM
+- [Supabase Authentication in Next.js](https://supabase.com/docs/guides/auth/server-side/nextjs) - Server-side authentication implementation with Supabase
+- [Next.js Crash Course](https://www.youtube.com/watch?v=6ChzCaljcaI) - Comprehensive video tutorial for Next.js beginners
