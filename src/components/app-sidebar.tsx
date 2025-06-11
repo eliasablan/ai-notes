@@ -42,7 +42,7 @@ async function AppSidebar() {
             >
               <Link href="/" className="flex items-center gap-2">
                 <Notebook className="!size-5" />
-                <span className="text-base font-semibold">Goat Notes</span>
+                <span className="text-base font-semibold">AI Notes</span>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -52,13 +52,13 @@ async function AppSidebar() {
         <SidebarGroup>
           <SidebarGroupLabel className="text-md my-2">
             {user ? (
-              "Mis notas"
+              "My notes"
             ) : (
               <p>
                 <Link href="/ingresar" className="underline">
-                  Inicia sesión
+                  Sign in
                 </Link>{" "}
-                para ver tus notas
+                to see your notes
               </p>
             )}
           </SidebarGroupLabel>

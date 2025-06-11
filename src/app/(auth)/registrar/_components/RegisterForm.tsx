@@ -42,9 +42,9 @@ export default function RegisterForm() {
   return (
     <Card className="mx-auto mb-6 max-w-md min-w-xs md:mt-12">
       <CardHeader>
-        <CardTitle className="text-2xl">Registrar</CardTitle>
+        <CardTitle className="text-2xl">Register</CardTitle>
         <CardDescription>
-          Crea tu cuenta llenando todos los campos del formulario.
+          Create your account by filling out all the fields in the form.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -52,7 +52,7 @@ export default function RegisterForm() {
           <div className="grid gap-4">
             <div className="grid gap-2">
               <label htmlFor="email" className="text-sm font-medium">
-                Correo electrónico
+                Email
               </label>
               <Input
                 id="email"
@@ -65,7 +65,7 @@ export default function RegisterForm() {
             </div>
             <div className="grid gap-2">
               <label htmlFor="password" className="text-sm font-medium">
-                Contraseña
+                Password
               </label>
               <PasswordInput
                 id="password"
@@ -80,15 +80,15 @@ export default function RegisterForm() {
               {isPending ? (
                 <Loader2 className="size-4 animate-spin" />
               ) : (
-                "Regístrate"
+                "Register"
               )}
             </Button>
           </div>
         </form>
         <div className="mt-4 text-center text-sm">
-          ¿Ya tienes una cuenta?{" "}
+          Already have an account?{" "}
           <Link href="/ingresar" className="underline">
-            Ingresa
+            Sign In
           </Link>
         </div>
       </CardContent>

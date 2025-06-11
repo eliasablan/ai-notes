@@ -42,9 +42,9 @@ export default function LoginForm() {
   return (
     <Card className="mx-auto mb-6 max-w-md min-w-xs md:mt-12">
       <CardHeader>
-        <CardTitle className="text-2xl">Ingresar</CardTitle>
+        <CardTitle className="text-2xl">Sign In</CardTitle>
         <CardDescription>
-          Ingresa tu correo electrónico y tu contraseña para ingresar.
+          Enter your email and password to sign in.
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -52,7 +52,7 @@ export default function LoginForm() {
           <div className="grid gap-4">
             <div className="grid gap-2">
               <label htmlFor="email" className="text-sm font-medium">
-                Correo electrónico
+                Email
               </label>
               <Input
                 id="email"
@@ -66,13 +66,13 @@ export default function LoginForm() {
             <div className="grid gap-2">
               <div className="flex items-center justify-between">
                 <label htmlFor="password" className="text-sm font-medium">
-                  Contraseña
+                  Password
                 </label>
                 <Link
                   href="/clave-olvidada"
                   className="ml-auto inline-block text-sm underline"
                 >
-                  ¿Olvidaste tu contraseña?
+                  Forgot your password?
                 </Link>
               </div>
               <PasswordInput
@@ -87,15 +87,15 @@ export default function LoginForm() {
               {isPending ? (
                 <Loader2 className="size-4 animate-spin" />
               ) : (
-                "Ingresar"
+                "Sign In"
               )}
             </Button>
           </div>
         </form>
         <div className="mt-4 text-center text-sm">
-          ¿No estas registrado?{" "}
+          Not registered?{" "}
           <Link href="/registrar" className="underline">
-            Regístrate
+            Register
           </Link>
         </div>
       </CardContent>

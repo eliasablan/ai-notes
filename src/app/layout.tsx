@@ -8,8 +8,8 @@ import AppSidebar from "@/components/app-sidebar";
 import NoteProvider from "@/providers/note-provider";
 
 export const metadata: Metadata = {
-  title: "Goat Notes",
-  description: "Goat Notes is a note-taking app for goats",
+  title: "AI Notes",
+  description: "AI Notes is a note-taking app for goats",
 };
 
 export default function RootLayout({

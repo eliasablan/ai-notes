@@ -18,7 +18,7 @@ export default async function Header() {
       >
         <Notebook className="size-8" />
         <h1 className="text-md flex flex-col leading-none font-semibold">
-          Goat <span>Notes</span>
+          AI <span>Notes</span>
         </h1>
       </Link>
       <div className="flex items-center gap-2">
@@ -27,10 +27,10 @@ export default async function Header() {
         ) : (
           <>
             <Button asChild>
-              <Link href="/ingresar">Ingresa</Link>
+              <Link href="/ingresar">Sign In</Link>
             </Button>
             <Button variant="outline" className="hidden md:block" asChild>
-              <Link href="/registrar">Regístrate</Link>
+              <Link href="/registrar">Register</Link>
             </Button>
           </>
         )}
