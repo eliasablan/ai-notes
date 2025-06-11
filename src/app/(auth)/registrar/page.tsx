@@ -1,6 +1,10 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Register from "./_components/RegisterForm";
 
 export default function Registrar() {
-  return <Register />;
+  return (
+    <Suspense>
+      <Register />
+    </Suspense>
+  );
 }
