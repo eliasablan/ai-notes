@@ -39,7 +39,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 List of resources used during application development:
 
+- [Next.js Crash Course](https://www.youtube.com/watch?v=6ChzCaljcaI) - Comprehensive video tutorial for Next.js beginners
+- [Repositorio en GitHub.dev](https://github.dev/ColeBlender/goat-notes) - Editor web del repositorio
 - [Bun with Prisma Guide](https://bun.sh/guides/ecosystem/prisma) - Configuration and integration of Prisma with Bun
 - [Prisma ORM Documentation](https://www.prisma.io/docs/orm/overview/introduction/what-is-prisma#how-does-prisma-orm-work) - Introduction and basic concepts of Prisma ORM
 - [Supabase Authentication in Next.js](https://supabase.com/docs/guides/auth/server-side/nextjs) - Server-side authentication implementation with Supabase
-- [Next.js Crash Course](https://www.youtube.com/watch?v=6ChzCaljcaI) - Comprehensive video tutorial for Next.js beginners
